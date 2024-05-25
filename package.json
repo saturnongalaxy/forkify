@@ -1,0 +1,25 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "compile:sass": "sass sass/main.scss css/style.css -w"
+  },
+  "author": "Leilan Na",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.32.1",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
+    "normalize.css": "^8.0.1",
+    "parcel": "^2.9.3",
+    "regenerator-runtime": "^0.14.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "sass": "^1.66.1"
+  }
+}
